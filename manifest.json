@@ -7,7 +7,7 @@
   "description": "Causes external links in JIRA cloud to open in a new window / tab.  This is in response to JIRACLOUD-9380.",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/mouse-black-18dp.svg"
   },
 
   "content_scripts": [
