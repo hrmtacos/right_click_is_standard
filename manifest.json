@@ -1,13 +1,13 @@
 {
 
   "manifest_version": 2,
-  "name": "Fix JIRA External Links",
+  "name": "Forced JIRA Cloud links to open in a new window or tab.",
   "version": "1.0",
 
-  "description": "Causes external links in JIRA cloud to open in a new window / tab.  This is in response to JIRACLOUD-9380.",
+  "description": "Causes external links in JIRA Cloud to open in a new window / tab.  This is in response to JIRACLOUD-9380 where Atlassian doesn't appear to be taking any action on the matter (since 2006!).",
 
   "icons": {
-    "48": "icons/mouse-black-18dp.svg"
+    "svg": "icons/mouse-black-18dp.svg"
   },
 
   "content_scripts": [

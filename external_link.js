@@ -1,5 +1,3 @@
-document.body.style.border = "5px solid red";
-
 $('a').each(function() {
     let href = $(this).attr('href');
     if (href != null) {
