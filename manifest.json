@@ -1,7 +1,7 @@
 {
 
   "manifest_version": 2,
-  "name": "Force JIRA Cloud links to open in a new window or tab.",
+  "name": "Right click is standard.",
   "version": "1.0",
 
   "description": "Causes external links in JIRA Cloud (any *.atlassian.net address) to open in a new window / tab.  This is in response to JIRACLOUD-9380 where Atlassian doesn't appear to be taking any action on the matter (since 2006!).",
@@ -13,8 +13,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.atlassian.net/*"],
-      "js": ["jquery-3.5.1.min.js"],
-      "js": ["external_link.js"]
+      "js": ["jquery-3.5.1.min.js", "external_link.js"]
     }
   ]
 
